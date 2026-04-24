@@ -1,0 +1,36 @@
+:root {
+    --farm-green: #1f6f4a;
+    --soil-dark: #1f2f28;
+    --field-mint: #e8f5ed;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    background: #f8faf9;
+    color: #1f2f28;
+}
+
+.farm-navbar {
+    background: linear-gradient(90deg, #173b2b 0%, var(--farm-green) 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-gradient {
+    background: radial-gradient(circle at top right, #f3fff8 0%, #e8f5ed 45%, #f8faf9 100%);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.86);
+    border: 1px solid rgba(31, 111, 74, 0.15);
+    border-radius: 1rem;
+    box-shadow: 0 8px 30px rgba(31, 111, 74, 0.1);
+}
+
+.section-body {
+    line-height: 1.75;
+    font-size: 1.06rem;
+}
+
+.card {
+    border-radius: 0.85rem;
+}
